@@ -2,7 +2,7 @@ import boto3
 import os
 from boto3.dynamodb.conditions import Key
 
-# Hola a todos, como van? los quiero mucho! 4 oct 7.47pm
+# Pipeline deploy
 
 DYNAMO_BD = os.environ['DYNAMO_BD']
 
